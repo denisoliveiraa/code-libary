@@ -1,0 +1,14 @@
+C:\dev\sys-libary\bin\Debug\net9.0\sys-libary.exe
+C:\dev\sys-libary\bin\Debug\net9.0\sys-libary.deps.json
+C:\dev\sys-libary\bin\Debug\net9.0\sys-libary.runtimeconfig.json
+C:\dev\sys-libary\bin\Debug\net9.0\sys-libary.dll
+C:\dev\sys-libary\bin\Debug\net9.0\sys-libary.pdb
+C:\dev\sys-libary\obj\Debug\net9.0\sys-libary.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\sys-libary\obj\Debug\net9.0\sys-libary.AssemblyInfoInputs.cache
+C:\dev\sys-libary\obj\Debug\net9.0\sys-libary.AssemblyInfo.cs
+C:\dev\sys-libary\obj\Debug\net9.0\sys-libary.csproj.CoreCompileInputs.cache
+C:\dev\sys-libary\obj\Debug\net9.0\sys-libary.dll
+C:\dev\sys-libary\obj\Debug\net9.0\refint\sys-libary.dll
+C:\dev\sys-libary\obj\Debug\net9.0\sys-libary.pdb
+C:\dev\sys-libary\obj\Debug\net9.0\sys-libary.genruntimeconfig.cache
+C:\dev\sys-libary\obj\Debug\net9.0\ref\sys-libary.dll

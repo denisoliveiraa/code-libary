@@ -1,7 +1,10 @@
 public class Loan {
-  public DateTime initialDate;
-  public DateTime finalDate;
-  public string bookName; 
-  public string clientName; 
+  public string BookId; 
+  public string ClientId; 
+
+  public Loan(string BookId, string Clientid){
+    this.BookId = BookId;
+    this.ClientId = ClientId;
+  }
 
 }

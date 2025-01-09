@@ -24,14 +24,35 @@ public class Library {
         _loan.Add(loan);
     }
 
-    public void findClientId(){
+    public Boolean FindBook(int id){
+        Book result = _book.Find(b => b.id == id);
+        if(result == null || result.available == false){
+            Console.WriteLine("Livro não existe ou não está disponível. Escolha um novo livro");
+            return true;
+        }else{
+            result.available = false;
+            return false;
+        }
+
+
+    }
+
+    public Boolean FindClient(int id){
+        Client result = _client.Find(b => b.id == id);
+        if(result == null ){
+            Console.WriteLine("Cliente não existe! Por favor escolha outro cliente");
+            return true;
+        }else{
+            return false;
+        }
+
 
     }
     public void ShowBooks()
         {
             foreach (var book in _book)
             {
-                Console.WriteLine($"Nome: {book.title}, Autor: {book.authorName}, Ano: {book.publisherYear}");
+                Console.WriteLine($"Código: {book.id}  - Nome: {book.title}, Autor: {book.authorName}, Ano: {book.publisherYear}");
             }
         }
 
@@ -39,7 +60,7 @@ public class Library {
         {
             foreach (var client in _client )
             {
-                Console.WriteLine($"Nome: {client.name}, Sobrenome: {client.lastName}, Ano Nascimento: {client.yearBirth}");
+                Console.WriteLine($"Código: {client.id} - Nome do cliente {client.name}, Sobrenome: {client.lastName}, Ano Nascimento: {client.yearBirth}");
             }
         }
 

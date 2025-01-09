@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\sys-libary\\sys-libary.csproj": {}
+    "C:\\dev\\code-libary\\sys-libary.csproj": {}
   },
   "projects": {
-    "C:\\dev\\sys-libary\\sys-libary.csproj": {
+    "C:\\dev\\code-libary\\sys-libary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\sys-libary\\sys-libary.csproj",
+        "projectUniqueName": "C:\\dev\\code-libary\\sys-libary.csproj",
         "projectName": "sys-libary",
-        "projectPath": "C:\\dev\\sys-libary\\sys-libary.csproj",
+        "projectPath": "C:\\dev\\code-libary\\sys-libary.csproj",
         "packagesPath": "C:\\Users\\Denis\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\sys-libary\\obj\\",
+        "outputPath": "C:\\dev\\code-libary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denis\\AppData\\Roaming\\NuGet\\NuGet.Config"

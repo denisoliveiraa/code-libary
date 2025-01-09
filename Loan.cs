@@ -1,6 +1,7 @@
 public class Loan {
-  private DateTime initialDate;
-  private DateTime finalDate;
-
+  public DateTime initialDate;
+  public DateTime finalDate;
+  public string bookName; 
+  public string clientName; 
 
 }
